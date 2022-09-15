@@ -9,6 +9,16 @@
   --color-primary: #ec5242;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 @media (max-width: 786px) {
     .nav1 {
       display: none;
@@ -68,6 +78,55 @@
       left: 20px;
       color: white;
       font-size: 24px;
+    }
+
+    .landing {
+      background: url(./images/background-desktop.png);
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .landing-content {
+      margin-left: 24px;
+    }
+  
+    .heading1 {
+      color: #ec5242;
+      margin-top: 68px;
+    }
+  
+    .heading2 {
+      margin-top: 42px;
+      font-family: 'Cocogoose', sans-serif;
+      font-size: 36px;
+      text-transform: uppercase;
+      background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+      background-repeat: repeat;
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    .heading-text {
+      margin-right: 12px;
+      font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      color: #272a31;
+      background: #f8f8f9;
+      padding: 20px;
+      border: 2px solid #fff;
+    }
+  
+    .heading-date {
+      font-family: 'Cocogoose', sans-serif;
+      color: #272a31;
     }
 }
 
@@ -137,4 +196,52 @@
       padding: 2%;
       color: #ec5242;
     }
+
+      /* landing */
+  .landing {
+    background: url(./images/background-desktop.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .landing-content {
+    margin-left: 200px;
+  }
+
+  .heading1 {
+    color: #ec5242;
+    margin-top: 106px;
+  }
+
+  .heading2 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .heading-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    background: #f8f8f9;
+    width: 550px;
+    padding: 20px;
+    border: 2px solid #fff;
+  }
+
+  .heading-date {
+    font-family: 'Cocogoose', sans-serif;
+  }
 }
