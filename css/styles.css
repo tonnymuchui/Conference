@@ -207,6 +207,100 @@ body {
     .program1 {
       display: none;
     }
+
+    .program2 {
+      font-family: 'Lato', sans-serif;
+      font-size: 30px;
+      color: #272a31;
+      margin-top: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+  
+    .join-Button {
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      margin: 10px 48px;
+      padding: 24px;
+      background-color: #ec5242;
+      color: #fff;
+    }
+  
+    .lecturerCards {
+      row-gap: 1rem;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+  
+    .card-lec {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 3%;
+      text-align: left;
+      margin: 3%;
+    }
+  
+    .card-lec img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 140px;
+    }
+  
+    .feature-card {
+      margin-left: 24px;
+    }
+  
+    .feature-card h3 {
+      font-family: 'Cocogoose', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      color: #272a31;
+    }
+  
+    .feature-card h5 {
+      font-family: 'Lato', sans-serif;
+      color: #ec5242;
+      font-weight: bold;
+      text-align: left;
+      font-style: italic;
+    }
+  
+    .feature-card p {
+      font-family: 'Lato', sans-serif;
+      color: #272a31;
+      font-weight: bold;
+      text-align: left;
+    }
+  
+    .show-more {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: white;
+      text-align: initial;
+      margin: 3%;
+      width: 94%;
+      padding: 10px 10px 10px 40%;
+      border: 1px solid #5f5f5f50;
+    }
+  
+    .show-less {
+      flex-direction: row;
+      align-items: center;
+      background-color: white;
+      text-align: initial;
+      margin: 3%;
+      width: 94%;
+      padding: 10px 10px 10px 40%;
+      border: 1px solid #5f5f5f50;
+    }
+  
+    .dis-none1 {
+      display: none;
+    }
 }
 
 @media (min-width: 786px) {
@@ -336,7 +430,7 @@ body {
   }
 
   .page2 {
-    background: #5f5f5f50;
+    background: white;
   }
 
   .prg1 {
@@ -409,4 +503,89 @@ body {
     font-size: 12px;
   }
 
+  .program2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #272a31;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .join-Button {
+    display: none;
+  }
+
+  .speakerCards {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .speakerCards1 {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 5%;
+  }
+
+  .card-lec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3%;
+    text-align: left;
+    margin: 3%;
+  }
+
+  .card-lec img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+  }
+
+  .feature-card {
+    margin-left: 24px;
+  }
+
+  .feature-card h3 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #272a31;
+  }
+
+  .feature-card h5 {
+    font-family: 'Lato', sans-serif;
+    color: #ec5242;
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+  }
+
+  .feature-card p {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .show-more {
+    display: none;
+  }
+
+  .show-less {
+    display: none;
+  }
+
+  .dis-none {
+    display: none;
+  }
 }
