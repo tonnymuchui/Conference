@@ -81,7 +81,7 @@ body {
     }
 
     .landing {
-      background: url(./images/background-desktop.png);
+      background: url("../images/background-desktop.png");
       height: 100vh;
       width: 100%;
       display: flex;
@@ -105,7 +105,7 @@ body {
       font-family: 'Cocogoose', sans-serif;
       font-size: 36px;
       text-transform: uppercase;
-      background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+      background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/it.jpeg");
       background-repeat: repeat;
       background-clip: border-box;
       -webkit-background-clip: text;
@@ -127,6 +127,85 @@ body {
     .heading-date {
       font-family: 'Cocogoose', sans-serif;
       color: #272a31;
+    }
+
+    .page1 {
+      background: url("../images/program-bg.jpeg");
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .page2 {
+      background: white;
+    }
+  
+    .prg1 {
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  
+    .program {
+      font-family: 'Lato', sans-serif;
+      font-size: 30px;
+      color: white;
+      margin-top: 5%;
+    }
+  
+    .underline {
+      width: 4%;
+      color: #ec5242;
+      border: 1px solid;
+    }
+  
+    .programCards {
+      row-gap: 1rem;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+  
+    .card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #5f5f5f50;
+      padding: 3%;
+      text-align: left;
+      margin: 3%;
+    }
+  
+    .card:hover {
+      border: 2px solid #d3d3d3;
+    }
+  
+    .card img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .programCards h3 {
+      font-family: 'Lato', sans-serif;
+      color: #ec5242;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .programCards p {
+      font-family: 'Lato', sans-serif;
+      color: #d3d3d3;
+      font-weight: bold;
+      text-align: center;
+      font-size: 12px;
+      padding: 2%;
+    }
+  
+    .program1 {
+      display: none;
     }
 }
 
@@ -199,7 +278,7 @@ body {
 
       /* landing */
   .landing {
-    background: url(./images/background-desktop.png);
+    background: url("../images/background-desktop.png");
     height: 100vh;
     width: 100%;
     display: flex;
@@ -222,7 +301,7 @@ body {
     font-family: 'Cocogoose', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url(./images/it.jpeg);
+    background-image: linear-gradient(rgba(255, 38, 0, 0.76), rgba(255, 51, 0, 0.575)), url("../images/it.jpeg");
     background-repeat: repeat;
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -244,4 +323,90 @@ body {
   .heading-date {
     font-family: 'Cocogoose', sans-serif;
   }
+
+  .page1 {
+    background: url("../images/program-bg.jpeg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .page2 {
+    background: #5f5f5f50;
+  }
+
+  .prg1 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .program {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 5%;
+  }
+
+  .program1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 5%;
+  }
+
+  .underline {
+    width: 4%;
+    color: #ec5242;
+    border: 1px solid;
+  }
+
+  .programCards {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .card {
+    flex-direction: row;
+    align-items: center;
+    background-color: #5f5f5f50;
+    padding: 3%;
+    text-align: left;
+    height: 110%;
+  }
+
+  .card:hover {
+    border: 2px solid #d3d3d3;
+  }
+
+  .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .programCards h3 {
+    font-family: 'Lato', sans-serif;
+    color: #ec5242;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .programCards p {
+    font-family: 'Lato', sans-serif;
+    color: #d3d3d3;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+  }
+
 }
