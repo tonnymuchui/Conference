@@ -16,7 +16,7 @@
 - Behance
 
 
-> ![](./images/fordesktop.png)
+> ![](./images/first.png)
 > ![](/images/mobile.png)
 
 ## Getting Started
