@@ -13,6 +13,16 @@
   box-sizing: border-box;
 }
 
+.nav-logo {
+  font-family: 'Cocogoose', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ec5242;
+  text-decoration: none;
+  margin-right: 150px;
+}
+
 body {
   display: flex;
   flex-direction: column;
