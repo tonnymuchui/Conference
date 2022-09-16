@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ECO BUILDERS
+# Conference
 
 > Building an Agriculture landing page with conference meet up details.
 
