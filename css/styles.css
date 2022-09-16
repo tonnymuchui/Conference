@@ -115,8 +115,7 @@ body {
     font-family: "Cocogoose", sans-serif;
     font-size: 36px;
     text-transform: uppercase;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 38, 0, 0.76),
         rgba(255, 51, 0, 0.575)
       ),
@@ -334,6 +333,98 @@ body {
     padding-bottom: 8%;
     margin: 0;
   }
+
+  .about-images img {
+    width: 100%;
+    height: auto;
+  }
+
+  /** About Page Mobile **/
+  .about-landing-content {
+    text-align: center;
+  }
+
+  .about-big {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color: #272a31;
+    background: white;
+    padding: 20px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about-small {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .ccsummit {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-program {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: var(--color-header);
+    margin-top: 5%;
+  }
+
+  .about-page1 img {
+    width: 75%;
+    padding-left: 27%;
+  }
+
+  .footer-class1 h3 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .faint {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    align-items: center;
+    font-weight: 100;
+    font-size: 24px;
+    padding: 3%;
+  }
+
+  .faint:hover {
+    color: #ec5242;
+  }
+
+  .bold {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 3%;
+  }
+
+  .bold:hover {
+    color: #ec5242;
+  }
 }
 
 @media (min-width: 786px) {
@@ -428,8 +519,7 @@ body {
     font-family: "Cocogoose", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(255, 38, 0, 0.76),
         rgba(255, 51, 0, 0.575)
       ),
@@ -709,5 +799,107 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 12px;
     margin: 3%;
+  }
+
+  /** About Page Desktop **/
+  .about-landing-content {
+    text-align: center;
+  }
+
+  .about-big {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    background: white;
+    padding: 20px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-none {
+    display: none;
+  }
+
+  .about-small {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .ccsummit {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-program {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    color: var(--color-primary);
+    margin-top: 5%;
+  }
+
+  .about-page1 img {
+    width: 50%;
+    padding-left: 33%;
+  }
+
+  .about-images {
+    clear: both;
+    display: table;
+    padding: 4%;
+  }
+
+  .imageleft {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  .imageleft img {
+    width: 100%;
+  }
+
+  .overlay {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #008cba;
+  }
+
+  .imageleft img:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 }
