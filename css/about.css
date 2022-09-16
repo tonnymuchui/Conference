@@ -1,11 +1,11 @@
-@import url('https://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.cdnfonts.com/css/Lato');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
 
 :root {
   --color-white: #fff;
   --color-header: #272a31;
-  --font-family: 'Lato', sans-serif;
+  --font-family: "Lato", sans-serif;
   --color-primary: #ff5a5f;
 }
 
@@ -25,14 +25,13 @@ body {
     display: none;
   }
 
-
   /** About Page Desktop **/
   .about-landing-content {
     text-align: center;
   }
 
   .about-big {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -49,7 +48,7 @@ body {
   }
 
   .about-small {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -60,7 +59,7 @@ body {
   }
 
   .ccsummit {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-style: normal;
     color: #272a31;
@@ -71,7 +70,7 @@ body {
   }
 
   .about-program {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 30px;
     color: var(--color-primary);
     margin-top: 5%;
@@ -133,90 +132,90 @@ body {
     display: none;
   }
 
-    /** About Page Mobile **/
-    .about-landing-content {
-      text-align: center;
-    }
-  
-    .about-big {
-      font-family: 'Lato', sans-serif;
-      font-size: 12px;
-      font-style: normal;
-      color: #272a31;
-      background: white;
-      padding: 20px;
-      border: 2px solid #fff;
-      text-align: center;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-  
-    .about-small {
-      font-family: 'Lato', sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      color: #272a31;
-      padding: 20px;
-      text-align: center;
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  
-    .ccsummit {
-      font-family: 'Lato', sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      color: #272a31;
-      text-align: center;
-      font-weight: 500;
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  
-    .about-program {
-      font-family: 'Lato', sans-serif;
-      font-size: 20px;
-      color: var(--color-header);
-      margin-top: 5%;
-    }
-  
-    .about-page1 img {
-      width: 75%;
-      padding-left: 27%;
-    }
-  
-    .footer-class1 h3 {
-      color: white;
-      text-align: center;
-      font-size: 22px;
-    }
-  
-    .faint {
-      text-align: center;
-      color: #d3d3d3;
-      text-decoration: none;
-      font-family: 'Lato', sans-serif;
-      align-items: center;
-      font-weight: 100;
-      font-size: 24px;
-      padding: 3%;
-    }
-  
-    .faint:hover {
-      color: #ec5242;
-    }
-  
-    .bold {
-      text-align: center;
-      color: #d3d3d3;
-      text-decoration: none;
-      align-items: center;
-      font-weight: 700;
-      font-size: 24px;
-      padding: 3%;
-    }
-  
-    .bold:hover {
-      color: #ec5242;
-    }
+  /** About Page Mobile **/
+  .about-landing-content {
+    text-align: center;
+  }
+
+  .about-big {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color: #272a31;
+    background: white;
+    padding: 20px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about-small {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .ccsummit {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #272a31;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-program {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: var(--color-header);
+    margin-top: 5%;
+  }
+
+  .about-page1 img {
+    width: 75%;
+    padding-left: 27%;
+  }
+
+  .footer-class1 h3 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .faint {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    align-items: center;
+    font-weight: 100;
+    font-size: 24px;
+    padding: 3%;
+  }
+
+  .faint:hover {
+    color: #ec5242;
+  }
+
+  .bold {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: none;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 3%;
+  }
+
+  .bold:hover {
+    color: #ec5242;
+  }
 }
