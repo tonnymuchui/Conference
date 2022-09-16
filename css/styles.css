@@ -161,6 +161,10 @@ body {
       color: #ec5242;
       border: 1px solid;
     }
+
+    .underline1 {
+      display: none;
+    }
   
     .programCards {
       row-gap: 1rem;
@@ -464,6 +468,12 @@ body {
     font-size: 16px;
     color: white;
     margin-top: 5%;
+  }
+
+  .underline1 {
+    width: 15%;
+    color: #d3d3d3;
+    border: 1px solid;
   }
 
   .underline {

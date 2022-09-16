@@ -9,6 +9,11 @@
   --color-primary: #ff5a5f;
 }
 
+.tonnys-logo {
+  width: 50% !important;
+  height: 50% !important;
+}
+
 body {
   display: flex;
   flex-direction: column;
