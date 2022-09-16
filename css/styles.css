@@ -115,7 +115,8 @@ body {
     font-family: "Cocogoose", sans-serif;
     font-size: 36px;
     text-transform: uppercase;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 38, 0, 0.76),
         rgba(255, 51, 0, 0.575)
       ),
@@ -519,7 +520,8 @@ body {
     font-family: "Cocogoose", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    background-image: linear-gradient(
+    background-image:
+      linear-gradient(
         rgba(255, 38, 0, 0.76),
         rgba(255, 51, 0, 0.575)
       ),
