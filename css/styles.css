@@ -438,7 +438,6 @@ body {
 
   .centered-hover {
     position: absolute;
-    transform: translate(-50%, -50%);
     text-align: center;
     margin-top: -20%;
     font-family: "Cocogoose", sans-serif;
@@ -448,7 +447,6 @@ body {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
   }
 }
 
@@ -932,7 +930,6 @@ body {
 
   .centered-hover {
     position: absolute;
-    transform: translate(-50%, -50%);
     text-align: center;
     margin-top: -15%;
     font-family: "Cocogoose", sans-serif;
@@ -942,6 +939,5 @@ body {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
   }
 }
