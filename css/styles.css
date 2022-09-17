@@ -29,6 +29,11 @@ body {
   margin: 0;
 }
 
+.chess-board {
+  margin-top: -100px;
+  margin-right: -50px !important;
+}
+
 @media (max-width: 786px) {
   .nav1 {
     display: none;
@@ -426,6 +431,25 @@ body {
   .bold:hover {
     color: #ec5242;
   }
+
+  .chess-board {
+    margin-right: -30px !important;
+  }
+
+  .centered-hover {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -20%;
+    font-family: "Cocogoose", sans-serif;
+    font-size: 40px;
+    margin-left: 50%;
+    color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
 
 @media (min-width: 786px) {
@@ -611,6 +635,7 @@ body {
     padding: 3%;
     text-align: left;
     height: 110%;
+    margin-right: 5px;
   }
 
   .card:hover {
@@ -865,13 +890,13 @@ body {
     padding: 4%;
   }
 
-  .imageleft {
+  .image_left {
     float: left;
     width: 50%;
     padding: 5px;
   }
 
-  .imageleft img {
+  .image_left img {
     width: 100%;
   }
 
@@ -889,16 +914,31 @@ body {
     background-color: #008cba;
   }
 
-  .imageleft img:hover .overlay {
+  .image_left img:hover .overlay {
     opacity: 1;
   }
 
   .overlay-text {
+    position: absolute;
     color: white;
     font-size: 20px;
-    position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .centered-hover {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -15%;
+    font-family: "Cocogoose", sans-serif;
+    font-size: 40px;
+    margin-left: 25%;
+    color: white;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
