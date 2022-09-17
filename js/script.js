@@ -36,7 +36,7 @@ lessButton.addEventListener('click', hideB);
 const cards = [
   {
     id: 1,
-    imageM: './images/Picture3.png',
+    imageM: './images/p1.jpg',
     heading3: 'Tonnny',
     heading5: 'FirstName LastName',
     cardDescription:
@@ -44,7 +44,7 @@ const cards = [
   },
   {
     id: 2,
-    imageM: './images/Picture3.png',
+    imageM: './images/p2.jpg',
     heading3: 'FirstName LastName',
     heading5: 'FirstName LastName',
     cardDescription:
@@ -52,7 +52,7 @@ const cards = [
   },
   {
     id: 3,
-    imageM: './images/Picture3.png',
+    imageM: './images/p3.jpg',
     heading3: 'FirstName LastName',
     heading5: 'FirstName LastName',
     cardDescription:
@@ -60,7 +60,23 @@ const cards = [
   },
   {
     id: 4,
-    imageM: './images/Picture3.png',
+    imageM: './images/p4.png',
+    heading3: 'FirstName LastName',
+    heading5: 'FirstName LastName',
+    cardDescription:
+      'Listen to the speaker from various countries about sharing and opening',
+  },
+  {
+    id: 5,
+    imageM: './images/p5.jpg',
+    heading3: 'FirstName LastName',
+    heading5: 'FirstName LastName',
+    cardDescription:
+      'Listen to the speaker from various countries about sharing and opening',
+  },
+  {
+    id: 6,
+    imageM: './images/p3.jpg',
     heading3: 'FirstName LastName',
     heading5: 'FirstName LastName',
     cardDescription:
@@ -87,11 +103,11 @@ const page2Card = cards.map(
           </div>
       </div>
       <div class="card-lec">
-          <img src="./images/Picture3.png" alt="lecture">
+          <img src="${card.imageM}" alt="lecture">
 
           <div class="feature-card">
-              <h3>Lecturer</h3>
-              <h5>Speaker</h5>
+              <h3>${card.heading3}</h3>
+              <h5>${card.heading5}</h5>
               <p>Listen to the speaker from various countries about sharing and opening</p>
           </div>
       </div>
@@ -102,37 +118,37 @@ const page2Card = cards.map(
 
   <div class="speakerCards1 dis-none1">
       <div class="card-lec">
-          <img src="./images/Picture3.png" alt="lecture">
+          <img src="${card.imageM}" alt="lecture">
           <div class="feature-card">
-              <h3>Lecturer1</h3>
-              <h5>Speaker</h5>
+              <h3>${card.heading3}</h3>
+              <h5>${card.heading5}</h5>
               <p>Listen to the speaker from various countries about sharing and opening</p>
           </div>
       </div>
 
       <div class="card-lec ">
-          <img src="./images/Picture3.png" alt="lecture">
+          <img src="${card.imageM}" alt="lecture">
 
           <div class="feature-card">
-              <h3>Lecturer2</h3>
-              <h5>Speaker</h5>
+              <h3>${card.heading3}</h3>
+              <h5>${card.heading5}</h5>
               <p>Listen to the speaker from various countries about sharing and opening</p>
           </div>
 
       </div>  
       <div class="card-lec">
-          <img src="./images/Picture3.png" alt="lecture">
+          <img src="${card.imageM}" alt="lecture">
           <div class="feature-card">
-              <h3>Lecturer3</h3>
-              <h5>Speaker</h5>
+              <h3>${card.heading3}</h3>
+              <h5>${card.heading5}</h5>
               <p>Listen to the speaker from various countries about sharing and opening</p>
           </div>
       </div>
       <div class="card-lec">
-          <img src="./images/Picture3.png" alt="lecture">
+          <img src="${card.imageM}" alt="lecture">
           <div class="feature-card">
-              <h3>Lecturer</h3>
-              <h5>Speaker</h5>
+              <h3>${card.heading3}</h3>
+              <h5>${card.heading5}</h5>
               <p>Listen to the speaker from various countries about sharing and opening</p>
           </div>
       </div>
@@ -157,28 +173,28 @@ const programCards = [
   {
     id: 2,
     title: 'Women in Agriculture',
-    imageM: './images/lecture.png',
+    imageM: './images/icons8-presentation-64.png',
     cardDescription:
       'Listen to the speaker from various countries about sharing and opening.',
   },
   {
     id: 3,
     title: 'Agtech',
-    imageM: './images/lecture.png',
+    imageM: './images/icons8-communication-80.png',
     cardDescription:
       'Listen to the speaker from various countries about sharing and opening.',
   },
   {
     id: 4,
     title: 'Regional trade',
-    imageM: './images/lecture.png',
+    imageM: './images/icons8-blackboard-64.png',
     cardDescription:
       'Listen to the speaker from various countries about sharing and opening.',
   },
   {
     id: 5,
     title: 'Agri-investment',
-    imageM: './images/lecture.png',
+    imageM: './images/icons8-react-native-50.png',
     cardDescription:
       'Listen to the speaker from various countries about sharing and opening.',
   },
